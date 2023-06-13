@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px){
+	.banner-inner .banner-item{ left: 5px} 
+	.banner-inner .banner-img {	right: 0; top: 100px;}
+	
+}
+
+@media screen and (max-width: 768px){
+	.banner-inner .banner-item p {width: 60%;}
+	.banner-inner .banner-img img {height: 500px}
+	.about .about-text {margin: 50px 0 0;width: 90%;}
+	.about .about-text p:nth-child(1), .about .about-text p:nth-child(2) {text-align: center}
+	.about .about-text .about-btn {text-align: center;}
+	#recent .card-blog {margin-bottom: 70px;}
+}
+  
+@media(max-width: 650px) {
+	.main-header {
+		padding: 0 15px;
+	}
+	.menu-icon  {
+	  display: flex;
+	  cursor: pointer;
+	  padding: 8px;
+	  width: 25%;
+	}
+	.bar1, .bar2, .bar3 {
+	  width: 30px;
+	  height: 3px;
+	  background-color: #fff;
+	  margin: 4px 0;
+	  transition: 0.4s;
+	}
+	.menu .menu-list { display: none; }
+	.menu .responsive {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left:0;
+		background:#434343;
+		width: 100%;
+		transition: width 2s ease-in;
+		z-index: 99
+	}
+	.menu .responsive li{display:block;color:#fff}
+	.menu .responsive li .dropdown-menu li a { color: #434343; width: 100%;height: auto;}
+	.menu .responsive li a{color:#fff;width:90%;display:block;padding:12px 15px}
+	.banner-inner .banner-img {display: none;}
+	.about-img .large-screen-img {display: none}
+	.about .about-img img { 
+		height: 250px;
+		width: 300px; 
+		object-fit: cover;
+		filter: grayscale(200%);
+		object-position: top;
+	}
+	.about-img .screen-img {display: block}
+	.banner-inner {text-align: center; width: 100%;}
+	.banner-inner .banner-item {top: 90px;}
+	.banner-inner .banner-item p {margin: 0 auto 10px; font-size: var(--normal-font); width: 100%;}
+	.banner-inner .action-btn {display: flex;}
+	.banner-inner .action-btn a {margin: 20px 0 10px;}
+	.modal-body img {margin-bottom: 20px;}
+	#skills {padding-top: 60px;}
+}
+
+@media(max-width: 680px) {
+    #service{margin: 50px 0;}
+ 	.s-box-container{
+		align-items:stretch;
+		display:flex;
+		justify-content:space-between;
+		flex-direction:row;
+		flex-wrap:nowrap;
+		overflow-x:auto;
+		overflow-y:hidden
+	}
+	.s-box-container .s-card{width: 300px; flex-basis: 300px; flex-grow: 0; flex-shrink:0}
+	#recent div .row:nth-child(2) {margin-top: 0;}
+	#clients {margin-top: 30px;}
+}
+
+  
+@media screen and (max-width: 480px){
+	.section-skills{display:block}
+	.section_title{text-align:center;margin:0 0 10px}
+}
+
+@media screen and (max-width: 425px){
+	.banner-inner .banner-item p {font-size: var(--small-font);}
+	.achievements { display: grid; grid-template-columns: auto auto; justify-content: space-between;margin: 0 25px;}
+	.a-list {margin: 0;}
+}
