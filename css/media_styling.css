@@ -57,7 +57,7 @@
 	.banner-inner {text-align: center; width: 100%;}
 	.banner-inner .banner-item {top: 90px;}
 	.banner-inner .banner-item p {margin: 0 auto 10px; font-size: var(--normal-font); width: 100%;}
-	.banner-inner .action-btn {display: flex;}
+	.banner-inner .action-btn {display: flex; justify-content: center; }
 	.banner-inner .action-btn a {margin: 20px 0 10px;}
 	.modal-body img {margin-bottom: 20px;}
 	#skills {padding-top: 60px;}
